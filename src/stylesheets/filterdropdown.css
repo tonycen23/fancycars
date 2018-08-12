@@ -1,0 +1,40 @@
+.filter-dropdown {
+  float: right;
+  margin-top: 28px;
+  position: relative;
+}
+
+.filter-dropdown span {
+  cursor: pointer;
+}
+
+.dropdown-content {
+  position: absolute;
+  width: 200px;
+  right: 0;
+  top: 25px;
+  padding: 10px;
+  z-index: 1000;
+  background: #fff;
+  box-shadow: 0px 0px 10px #ccc;
+  border-radius: 2px;
+}
+
+.dropdown-content ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.dropdown-content li {
+  padding: 5px;
+}
+
+.dropdown-content li:hover {
+  background: #ededed;
+}
+
+.dropdown-content li a {
+  color: #777777;
+  cursor: pointer;
+}

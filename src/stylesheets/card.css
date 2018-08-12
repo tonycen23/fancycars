@@ -1,0 +1,119 @@
+.card {
+  background: #fff;
+  height: 100%;
+}
+
+.car-image-container {
+  height: 300px;
+  overflow: hidden;
+}
+
+.car--image {
+  width: 100%;
+  height: auto;
+}
+
+.card-body {
+  background: #fff;
+  padding: 28px 10%;
+}
+
+.car-title {
+  margin-bottom: 1rem;
+  width: 100%;
+}
+
+.car-title h5 {
+  font-size: 20px;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  float: left;
+  max-width: 170px;
+}
+
+.availability {
+  float: right;
+}
+
+.availability span {
+  display: block;
+  margin-top: 17px;
+}
+
+.car-stats {
+  color: #777777;
+}
+
+.car-stats span {
+  margin-right: 1rem;
+  float: left;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+.availability--btn {
+  background: #31c742;
+  padding: 10px 25px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  margin-top: 10px;
+}
+
+.out-of-stock {
+  color: #FF0033;
+}
+
+@media only screen and (max-width: 400px) {
+  .car-image-container {
+    height: 160px;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 450px) {
+  .car-image-container {
+    height: 200px;
+  }
+}
+
+@media only screen and (min-width: 450px) and (max-width: 575px) {
+  .car-image-container {
+    height: 250px;
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .availability {
+    display: none;
+  }
+  .availability-mobile .availability--btn {
+    width: 100%;
+  }
+  .availability-mobile span {
+    text-align: center;
+    margin-top: 1rem;
+    width: 100%;
+    display: block;
+  }
+  .car-title h5 {
+    max-width: 100%;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .availability-mobile {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  .car-image-container {
+    height: 200px;
+  }
+}
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+  .car-image-container {
+    height: 250px;
+  }
+}

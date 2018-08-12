@@ -1,0 +1,130 @@
+.header {
+  background: url('../assets/images/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100%;
+  position: relative;
+  height: 500px;
+  color: #fff;
+}
+
+.overlay {
+  background: #000;
+  width: 100%;
+  height: 100%;
+  z-index: 100;
+  opacity: 0.25;
+  position:absolute;
+  top: 0;
+  left: 0;
+}
+
+.header-text {
+  position: absolute;
+  z-index: 1000;
+  text-align: center;
+  width: 100%;
+  height: 100%;
+  top: 75px;
+}
+
+.header-text h1 {
+  font-size: 100px;
+}
+
+.cars-listing-section {
+  padding: 3rem 0;
+}
+
+.container {
+  width: 100%;
+  margin: 0 auto;
+  max-width: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+.car-column {
+  -webkit-box-flex: 0;
+  padding-right: 15px;
+  padding-left: 15px;
+  position: relative;
+  min-height: 1px;
+  margin-bottom: 2rem;
+}
+
+.clearfix {
+  clear: both;
+}
+
+.filter-section {
+  width: 100%;
+  flex: 0 0 100%;
+  -webkit-box-flex: 0;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-bottom: 2rem;
+}
+
+.filter-content {
+  height: 100%;
+  width: 100%;
+  border-bottom: 2px solid #DFDFE0;
+}
+
+.filter--heading {
+  float: left;
+}
+
+
+@media only screen and (min-width: 576px) {
+  .container {
+    max-width: 576px;
+  }
+
+  .car-column {
+    max-width: 100%;
+    flex: 0 0 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+
+  .car-column {
+    max-width: 50%;
+    flex: 0 0 50%;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+
+  .car-column {
+    max-width: 50%;
+    flex: 0 0 50%;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+
+  .car-column {
+    max-width: 50%;
+    flex: 0 0 50%;
+  }
+}
